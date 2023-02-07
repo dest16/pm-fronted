@@ -29,7 +29,7 @@
             },
             showTopHeader: {
                 type: Boolean,
-                default: true
+                default: false
             },
             topbarStyle: {
                 type: Number,
@@ -60,7 +60,7 @@
             },
             showFooter: {
                 type: Boolean,
-                default: true
+                default: false
             },
             showCopyright: {
                 type: Boolean,
@@ -72,7 +72,7 @@
             },
             showCta: {
                 type: Boolean,
-                default: true
+                default: false
             }
         }
     }

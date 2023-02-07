@@ -77,12 +77,12 @@
                                 </nav>
 
                                 <!-- Start Header Btn -->
-                                <div class="header-btn">
-                                    <a :class="data.buyButtonClass"
-                                       href="#">
-                                        BUY NOW
-                                    </a>
-                                </div>
+<!--                                <div class="header-btn">-->
+<!--                                    <a :class="data.buyButtonClass"-->
+<!--                                       href="#">-->
+<!--                                        BUY NOW-->
+<!--                                    </a>-->
+<!--                                </div>-->
                                 <!-- End Header Btn  -->
 
                                 <!-- Start Mobile-Menu-Bar -->
@@ -126,12 +126,12 @@
                         <div class="col-lg-3 col-md-6 col-8">
                             <div class="header-right">
                                 <!-- Start Header Btn -->
-                                <div class="header-btn">
-                                    <a :class="data.buyButtonClass"
-                                       href="#">
-                                        BUY NOW
-                                    </a>
-                                </div>
+<!--                                <div class="header-btn">-->
+<!--                                    <a :class="data.buyButtonClass"-->
+<!--                                       href="#">-->
+<!--                                        BUY NOW-->
+<!--                                    </a>-->
+<!--                                </div>-->
                                 <!-- End Header Btn  -->
 
                                 <!-- Start Mobile-Menu-Bar -->

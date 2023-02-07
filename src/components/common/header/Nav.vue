@@ -2,7 +2,7 @@
     <ul class="mainmenu">
         <li class="has-droupdown has-menu-child-item">
             <a href="#">
-                Home
+                首页
                 <Icon name="plus" class="collapse-icon plus"/>
                 <Icon name="minus" class="collapse-icon minus"/>
             </a>
@@ -27,10 +27,10 @@
                 <li><router-link to="/web-agency">Web Agency</router-link></li>
             </ul>
         </li>
-        <li><router-link to="/about">About</router-link></li>
+        <li><router-link to="/about">关于我们</router-link></li>
         <li class="with-megamenu has-menu-child-item">
             <a href="#">
-                Elements
+                拍卖公告1
                 <Icon name="plus" class="collapse-icon plus"/>
                 <Icon name="minus" class="collapse-icon minus"/>
             </a>
@@ -105,7 +105,7 @@
         </li>
         <li class="has-droupdown has-menu-child-item">
             <a href="#">
-                Blog
+              拍卖公告2
                 <Icon name="plus" class="collapse-icon plus"/>
                 <Icon name="minus" class="collapse-icon minus"/>
             </a>
@@ -118,7 +118,7 @@
         </li>
         <li class="has-droupdown has-menu-child-item">
             <a href="#">
-                Portfolio
+              拍卖公告3
                 <Icon name="plus" class="collapse-icon plus"/>
                 <Icon name="minus" class="collapse-icon minus"/>
             </a>
@@ -130,7 +130,7 @@
                 <li><router-link to="/portfolio-box-layout">Portfolio Box Layout</router-link></li>
             </ul>
         </li>
-        <li><router-link to="/contact">Contact</router-link></li>
+        <li><router-link to="/contact">联系我们</router-link></li>
     </ul>
 </template>
 
