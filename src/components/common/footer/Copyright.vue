@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-lg-6 col-md-4 col-sm-12 col-12">
                     <div class="copyright-right text-center text-lg-end">
-                        <p class="copyright-text">© 湖北xx拍卖有限责任公司 {{ new Date().getFullYear() }}</p>
+                        <p class="copyright-text">© 湖北东晟拍卖有限公司 {{ new Date().getFullYear() }}</p>
                     </div>
                 </div>
             </div>

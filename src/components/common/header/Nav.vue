@@ -1,8 +1,14 @@
 <template>
     <ul class="mainmenu">
+        <li><router-link to="/">首页</router-link></li>
+        <li><router-link to="/about">公司简介</router-link></li>
+        <li><router-link to="/message">拍卖公告</router-link></li>
+        <li><router-link to="/about">法律法规</router-link></li>
+        <li><router-link to="/about">业务流程</router-link></li>
+        <li><router-link to="/contact">联系我们</router-link></li>
         <li class="has-droupdown has-menu-child-item">
             <a href="#">
-                首页
+                0
                 <Icon name="plus" class="collapse-icon plus"/>
                 <Icon name="minus" class="collapse-icon minus"/>
             </a>
@@ -27,10 +33,10 @@
                 <li><router-link to="/web-agency">Web Agency</router-link></li>
             </ul>
         </li>
-        <li><router-link to="/about">关于我们</router-link></li>
+<!--        <li><router-link to="/about">关于我们</router-link></li>-->
         <li class="with-megamenu has-menu-child-item">
             <a href="#">
-                拍卖公告1
+                1
                 <Icon name="plus" class="collapse-icon plus"/>
                 <Icon name="minus" class="collapse-icon minus"/>
             </a>
@@ -105,7 +111,7 @@
         </li>
         <li class="has-droupdown has-menu-child-item">
             <a href="#">
-              拍卖公告2
+              2
                 <Icon name="plus" class="collapse-icon plus"/>
                 <Icon name="minus" class="collapse-icon minus"/>
             </a>
@@ -118,7 +124,7 @@
         </li>
         <li class="has-droupdown has-menu-child-item">
             <a href="#">
-              拍卖公告3
+              3
                 <Icon name="plus" class="collapse-icon plus"/>
                 <Icon name="minus" class="collapse-icon minus"/>
             </a>
@@ -130,7 +136,7 @@
                 <li><router-link to="/portfolio-box-layout">Portfolio Box Layout</router-link></li>
             </ul>
         </li>
-        <li><router-link to="/contact">联系我们</router-link></li>
+<!--        <li><router-link to="/contact">联系我们</router-link></li>-->
     </ul>
 </template>
 

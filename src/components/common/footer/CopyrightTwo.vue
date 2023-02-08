@@ -5,9 +5,9 @@
                 <div class="col-lg-4 col-md-7 col-sm-12 col-12">
                     <div class="copyright-left">
                         <ul class="ft-menu link-hover">
-                            <li><router-link to="#">Privacy Policy</router-link></li>
-                            <li><router-link to="#">Terms And Condition</router-link></li>
-                            <li><router-link to="/contact">Contact Us</router-link></li>
+                            <li><router-link to="#">隐私政策</router-link></li>
+                            <li><router-link to="#">投诉与建议</router-link></li>
+                            <li><router-link to="/contact">联系我们</router-link></li>
                         </ul>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12 mt_md--20 mt_sm--20">
                     <div class="copyright-right text-center text-lg-end">
                         <p class="copyright-text">
-                            Copyright All rights reserved © {{ new Date().getFullYear() }} Doob Vue.js Template.
+                          湖北东晟拍卖有限公司 © {{ new Date().getFullYear() }}
                         </p>
                     </div>
                 </div>

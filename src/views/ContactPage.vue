@@ -7,8 +7,8 @@
                     <div class="col-lg-12 mb--40">
                         <SectionTitle
                             text-align="center"
-                            subtitle="Contact Form"
-                            title="Our Contact Address Here"
+                            subtitle="Contact Us"
+                            title="联系我们"
                         />
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                                             <Icon name="headphones" :size="40"/>
                                         </div>
                                         <div class="inner">
-                                            <h4 class="title">Contact Phone Number</h4>
+                                            <h4 class="title">联系电话</h4>
                                             <p><a href="tel:+444 555 666 777">+444 555 666 777</a></p>
                                             <p><a href="tel:+222 222 222 333">+222 222 222 333</a></p>
                                         </div>
@@ -35,7 +35,7 @@
                                             <Icon name="mail" :size="40"/>
                                         </div>
                                         <div class="inner">
-                                            <h4 class="title">Our Email Address</h4>
+                                            <h4 class="title">邮编邮箱</h4>
                                             <p><a href="mailto:admin@gmail.com">admin@gmail.com</a></p>
                                             <p><a href="mailto:example@gmail.com">example@gmail.com</a></p>
                                         </div>
@@ -48,7 +48,7 @@
                                             <Icon name="map-pin" :size="40"/>
                                         </div>
                                         <div class="inner">
-                                            <h4 class="title">Our Location</h4>
+                                            <h4 class="title">地址</h4>
                                             <p>5678 Bangla Main Road, cities 580 <br /> GBnagla, example 54786</p>
                                         </div>
                                     </div>

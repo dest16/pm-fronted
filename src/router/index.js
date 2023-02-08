@@ -54,16 +54,43 @@ import Freelancer from '../views/home-pages/Freelancer'
 import InternationalConsulting from '../views/home-pages/InternationalConsulting'
 import Startup from '../views/home-pages/Startup'
 import WebAgency from '../views/home-pages/WebAgency'
+import Home from "../views/Home.vue";
+import Message from "@/views/MessagePage.vue";
+import MessageDetailsPage from "@/views/MessageDetailsPage.vue";
 
 Vue.use(VueRouter)
 
 const routes = [
     {
         path: '/',
+        name: 'Home',
+        component: Home,
+        meta: {
+            title: '湖北xx拍卖有限责任公司',
+        },
+    },
+    {
+        path: '/message',
+        name: 'Message',
+        component: Message,
+        meta: {
+            title: '拍卖公告',
+        },
+    },
+    {
+        path: '/message-details/:id',
+        name: '拍卖公告详情',
+        component: MessageDetailsPage,
+        meta: {
+            title: '拍卖公告详情',
+        },
+    },
+    {
+        path: '/demo',
         name: 'Demo',
         component: Demo,
         meta: {
-            title: '湖北xx拍卖有限责任公司',
+            title: 'Demo',
         },
     },
     {

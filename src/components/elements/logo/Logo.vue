@@ -18,13 +18,15 @@
             lightLogo: {
                 type: String,
                 default: function () {
-                    return require(`@/assets/images/logo/logo.png`)
+                    // return require(`@/assets/images/logo/logo.png`)
+                    return require(`@/assets/images/logo/logo-pm.png`)
                 }
             },
             darkLogo: {
                 type: String,
                 default: function () {
-                    return require(`@/assets/images/logo/logo-dark.png`)
+                    // return require(`@/assets/images/logo/logo-dark.png`)
+                    return require(`@/assets/images/logo/logo-pm.png`)
                 }
             }
         }

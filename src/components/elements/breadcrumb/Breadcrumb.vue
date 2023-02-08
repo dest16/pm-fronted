@@ -30,7 +30,7 @@
             },
             parentUrl: {
                 type: String,
-                default: 'Home'
+                default: '首页'
             },
             currentUrl: {
                 type: String,
