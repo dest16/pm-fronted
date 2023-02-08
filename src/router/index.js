@@ -57,6 +57,7 @@ import WebAgency from '../views/home-pages/WebAgency'
 import Home from "../views/Home.vue";
 import Message from "@/views/MessagePage.vue";
 import MessageDetailsPage from "@/views/MessageDetailsPage.vue";
+import ArticleListPage from "@/views/ArticleListPage";
 
 Vue.use(VueRouter)
 
@@ -79,10 +80,18 @@ const routes = [
     },
     {
         path: '/message-details/:id',
-        name: '拍卖公告详情',
+        name: 'Message Details',
         component: MessageDetailsPage,
         meta: {
             title: '拍卖公告详情',
+        },
+    },
+    {
+        path: '/article-list',
+        name: 'Article List',
+        component: ArticleListPage,
+        meta: {
+            title: '法律法规',
         },
     },
     {

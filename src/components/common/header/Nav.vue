@@ -3,7 +3,7 @@
         <li><router-link to="/">首页</router-link></li>
         <li><router-link to="/about">公司简介</router-link></li>
         <li><router-link to="/message">拍卖公告</router-link></li>
-        <li><router-link to="/about">法律法规</router-link></li>
+        <li><router-link to="/article-list">法律法规</router-link></li>
         <li><router-link to="/about">业务流程</router-link></li>
         <li><router-link to="/contact">联系我们</router-link></li>
         <li class="has-droupdown has-menu-child-item">
