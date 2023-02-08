@@ -6,14 +6,17 @@
           <div class="col-lg-10 offset-lg-1">
             <!-- 风格1 -->
             <div class="inner">
-              <div class="details-list">
+              <div class="frame-image">
 <!--                <div class="thumbnail alignwide">-->
 <!--                  <img class="radius w-100" :src="portfolio.largeImage" alt="Corporate Image"/>-->
 <!--                </div>-->
 
-                <div class="row mt--40 row--25">
+                <div class="row  row--25">
                   <div class="col-lg-6">
                     <div class="content-left">
+                      <span class="date-of-timeline" data-aos="fade-up" data-aos-delay="50">
+                        公告中
+                      </span>
                       <h2 class="title">{{ portfolio.title }}</h2>
                       <div class="single-list-wrapper">
                         <div class="single-list">
@@ -24,10 +27,10 @@
                           <label>参考价:</label>
                           <span>{{ portfolio.client }}</span>
                         </div>
-                        <div class="single-list">
-                          <label>参拍链接:</label>
-                          <span>{{ portfolio.category }}</span>
-                        </div>
+<!--                        <div class="single-list">-->
+<!--                          <label>参拍链接:</label>-->
+<!--                          <span>{{ portfolio.category }}</span>-->
+<!--                        </div>-->
                       </div>
                       <div class="view-btn mt--50">
                         <a class="btn-default btn-large round" :href="portfolio.btn.link">

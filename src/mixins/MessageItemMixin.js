@@ -6,7 +6,7 @@ export default {
                    id: 1,
                    portfolioImage: require(`@/assets/images/message/message-01.png`),
                    image: require(`@/assets/images/message/message-01.png`),
-                   title: '宜昌市夷陵区小溪塔长江市场香山花园住宅、香山凤凰城商业房产变卖公告',
+                   title: '宜昌市夷陵区香山凤凰城商业房产变卖公告.宜昌市夷陵区',
                    subtitle: '拍卖详情',
                    date: '2022-05-03',
                    client: '20.7元/㎡/月',
