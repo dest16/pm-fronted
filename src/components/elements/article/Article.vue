@@ -12,12 +12,17 @@
                 <div class="inner">
                     <div class="row row--30 align-items-center">
                         <div class="mt_md--40 mt_sm--40">
+                          <span class="date-of-timeline" data-aos="fade-up" data-aos-delay="80">
+                            {{ timeline.date }}
+                          </span>
                             <div class="content">
 <!--                                <span class="date-of-timeline" data-aos="fade-up" data-aos-delay="50">-->
 <!--                                    {{ timeline.date }}-->
 <!--                                </span>-->
                                 <h5 class="title" data-aos="fade-up" data-aos-delay="80">
+                                  <router-link :to="`/article-details/1`">
                                     {{ timeline.title }}
+                                  </router-link>
                                 </h5>
 <!--                                <p class="description" data-aos="fade-up" data-aos-delay="110">-->
 <!--                                    {{ timeline.description }}-->

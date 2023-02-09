@@ -58,6 +58,7 @@ import Home from "../views/Home.vue";
 import Message from "@/views/MessagePage.vue";
 import MessageDetailsPage from "@/views/MessageDetailsPage.vue";
 import ArticleListPage from "@/views/ArticleListPage";
+import ArticleDetailsPage from "@/views/ArticleDetailsPage.vue";
 
 Vue.use(VueRouter)
 
@@ -92,6 +93,14 @@ const routes = [
         component: ArticleListPage,
         meta: {
             title: '法律法规',
+        },
+    },
+    {
+        path: '/article-details/:id',
+        name: 'Article Details',
+        component: ArticleDetailsPage,
+        meta: {
+            title: '法律法规详情',
         },
     },
     {

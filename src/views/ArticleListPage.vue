@@ -1,6 +1,6 @@
 <template>
-  <Layout header-class="header-transparent" :footer-style="3">
-
+<!--  <Layout header-class="header-transparent" :footer-style="3">-->
+  <Layout >
 
     <!-- Start Timeline Area  -->
     <div class="rwt-timeline-area rn-section-gap">
@@ -9,7 +9,7 @@
           <div class="col-lg-12">
             <SectionTitle
                 text-align="center"
-                subtitle="Working Process"
+                subtitle="Laws And Regulations"
                 title="法律法规"
                 description="所有拍卖均遵守以下法律法规"
             />
@@ -47,9 +47,10 @@ import BlogPostMixin from '../mixins/BlogPostMixin'
 import BlogPost from '../components/blog/BlogPost'
 import CallToAction from '../components/elements/callToAction/CallToAction'
 import Article from "@/components/elements/article/Article";
+import Breadcrumb from '../components/elements/breadcrumb/Breadcrumb'
 
 export default {
-  name: 'BusinessConsulting',
+  name: 'ArticleListPage',
   components: {
     Article,
     ServiceOne,
@@ -62,7 +63,8 @@ export default {
     SectionTitle,
     Separator,
     Icon,
-    Layout
+    Layout,
+    Breadcrumb
   },
   mixins: [BlogPostMixin],
   data() {

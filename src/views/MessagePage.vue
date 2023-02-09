@@ -1,6 +1,6 @@
 <template>
     <Layout>
-        <Breadcrumb title="AUCTION ANNOUNCEMENT" current-url="拍卖公告"/>
+<!--        <Breadcrumb title="AUCTION ANNOUNCEMENT" current-url="拍卖公告"/>-->
 
         <div class="rn-blog-area rn-section-gap">
             <div class="container">
