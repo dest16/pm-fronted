@@ -1,7 +1,7 @@
 <template>
 <!--  <Layout header-class="header-transparent" :footer-style="3">-->
   <Layout >
-<!--    <Breadcrumb title="Blog Grid Style" current-url="Blog Grid"/>-->
+
     <!-- Start Timeline Area  -->
     <div class="rwt-timeline-area rn-section-gap">
       <div class="container">
@@ -17,16 +17,16 @@
 <!--        </div>-->
         <div class="row mt_dec--30">
           <div class="col-lg-12">
-            <Article :timeline-data="timelineData"/>
+            <Process :timeline-data="timelineData"/>
           </div>
         </div>
-        <div class="col-lg-12 text-center">
-          <div class="rwt-load-more text-center mt--60">
-            <a class="btn-default" href="#">
-              View More Post <Icon name="loader"/>
-            </a>
-          </div>
-        </div>
+<!--        <div class="col-lg-12 text-center">-->
+<!--          <div class="rwt-load-more text-center mt&#45;&#45;60">-->
+<!--            <a class="btn-default" href="#">-->
+<!--              View More Post <Icon name="loader"/>-->
+<!--            </a>-->
+<!--          </div>-->
+<!--        </div>-->
       </div>
     </div>
     <!-- End Timeline Area -->
@@ -45,13 +45,13 @@ import Video from '../components/elements/video/Video'
 import Testimonial from '../components/elements/testimonial/Testimonial'
 import BlogPost from '../components/blog/BlogPost'
 import CallToAction from '../components/elements/callToAction/CallToAction'
-import Article from "@/components/elements/article/Article";
 import Breadcrumb from '../components/elements/breadcrumb/Breadcrumb'
+import Process from "@/components/elements/process/Process.vue";
 
 export default {
-  name: 'ArticleListPage',
+  name: 'ProcessPage',
   components: {
-    Article,
+    Process,
     ServiceOne,
     CallToAction,
     BlogPost,
@@ -71,8 +71,8 @@ export default {
         {
           id: '1',
           date: 'Step-1',
-          title: '拍卖管理办法 （2015修正）',
-          description: 'Lorem ipsum dolor sit amet at — consectetur adipisicing elit. Hic, expedita. Incidunt laboriosam.',
+          title: '查阅标的',
+          description: '仔细阅读标的公告与竞买须知，了解标的物基本信息。',
           image: 'timeline-01',
           workingStep: [
             {
@@ -88,8 +88,8 @@ export default {
         {
           id: '2',
           date: 'Step-2',
-          title: '中华人民共和国合同法（中华人民共和国主席令第15号）',
-          description: 'Lorem ipsum dolor sit amet at — consectetur adipisicing elit. Hic, expedita. Incidunt laboriosam.',
+          title: '办理报名手续',
+          description: '联系我司工作人员缴纳项目保证金并办理报名手续。',
           image: 'timeline-02',
           workingStep: [
             {
@@ -105,8 +105,25 @@ export default {
         {
           id: '3',
           date: 'Step-3',
-          title: '企业国有资产交易监督管理办法（国务院国资委、财政部令 第32号）',
-          description: 'Lorem ipsum dolor sit amet at — consectetur adipisicing elit. Hic, expedita. Incidunt laboriosam.',
+          title: '参与竞拍',
+          description: '拍卖会时间参加拍卖会举牌竞价。',
+          image: 'timeline-02',
+          workingStep: [
+            {
+              stepTitle: 'Follow this process',
+              stepDescription: 'Lorem ipsum dolor sit amet at consectetur adipisicing',
+            },
+            {
+              stepTitle: 'Working experience',
+              stepDescription: 'Lorem ipsum dolor sit amet at consectetur adipisicing',
+            },
+          ]
+        },
+        {
+          id: '4',
+          date: 'Step-4',
+          title: '标的交割',
+          description: '成为买受人后，委托或自行办理过户手续。',
           image: 'timeline-02',
           workingStep: [
             {

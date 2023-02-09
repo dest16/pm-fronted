@@ -5,24 +5,22 @@
         <div class="single-timeline mt--50"
              v-for="(timeline, index) in timelineData"
              :key="index">
-<!--            <div class="timeline-dot">-->
-<!--                <div class="time-line-circle"/>-->
-<!--            </div>-->
+            <div class="timeline-dot">
+                <div class="time-line-circle"/>
+            </div>
             <div class="single-content">
                 <div class="inner">
                     <div class="row row--30 align-items-center">
                         <div class="mt_md--40 mt_sm--40">
-<!--                          <span class="date-of-timeline" data-aos="fade-up" data-aos-delay="80">-->
-<!--                            {{ timeline.date }}-->
-<!--                          </span>-->
+                          <span class="date-of-timeline" data-aos="fade-up" data-aos-delay="80">
+                            {{ timeline.id }}、{{ timeline.title }}
+                          </span>
                             <div class="content">
 <!--                                <span class="date-of-timeline" data-aos="fade-up" data-aos-delay="50">-->
 <!--                                    {{ timeline.date }}-->
 <!--                                </span>-->
                                 <h5 class="title" data-aos="fade-up" data-aos-delay="80">
-                                  <router-link :to="`/article-details/1`">
-                                    {{ timeline.title }}
-                                  </router-link>
+                                    {{ timeline.description }}
                                 </h5>
 <!--                                <p class="description" data-aos="fade-up" data-aos-delay="110">-->
 <!--                                    {{ timeline.description }}-->
@@ -96,7 +94,7 @@
 
 <script>
     export default {
-        name: 'Article',
+        name: 'Process',
         props: {
             timelineData: {},
             timelineStyle: {
