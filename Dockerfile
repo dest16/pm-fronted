@@ -1,13 +1,23 @@
-# 基础 image
 FROM node:16
 
-# 设置项目目录
+# bind your app to the gateway IP
+ENV HOST=0.0.0.0
+
+# make the 'app' folder the current working directory
 WORKDIR /app
 
-# 安装项目依赖
-COPY package.json .
+# install vue
+RUN npm install vue@latest
+
+# copy both 'package.json' and 'package-lock.json' (if available)
+COPY package.json /app/package.json
+
+# install project dependencies
 RUN npm install
 
+# copy project files and folders to the current working directory (i.e. 'app' folder)
+COPY . .
+
 EXPOSE 3000
-# 运行
-CMD ["npm", "run", "serve"]
+
+CMD [ "npm", "run", "serve" ]
