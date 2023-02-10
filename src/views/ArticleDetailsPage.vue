@@ -10,9 +10,9 @@
                                     <h3  v-html="post.title"/>
                                 </div>
                                 <ul class="rn-meta-list">
-                                    <li>
-                                        <Icon name="user" class="size-20"/> <router-link to="#">Irin Pervin</router-link>
-                                    </li>
+<!--                                    <li>-->
+<!--                                        <Icon name="user" class="size-20"/> <router-link to="#">Irin Pervin</router-link>-->
+<!--                                    </li>-->
                                     <li>
                                         <Icon name="calendar" class="size-20"/> {{ post.publishedAt }}
                                     </li>
@@ -34,25 +34,25 @@
                             <div class="content">
                                 <p v-html="post.body"/>
 
-                                <div class="category-meta">
-                                    <span class="text">Tags:</span>
-                                    <div class="tagcloud">
-                                        <a href="#">Corporate</a>
-                                        <a href="#">Agency</a>
-                                        <a href="#">Creative</a>
-                                        <a href="#">Design</a>
-                                        <a href="#">Minimal</a>
-                                        <a href="#">Company</a>
-                                        <a href="#">Development</a>
-                                        <a href="#">App Landing</a>
-                                        <a href="#">Startup</a>
-                                        <a href="#">App</a>
-                                        <a href="#">Business</a>
-                                        <a href="#">Software</a>
-                                        <a href="#">Landing</a>
-                                        <a href="#">Art</a>
-                                    </div>
-                                </div>
+<!--                                <div class="category-meta">-->
+<!--                                    <span class="text">Tags:</span>-->
+<!--                                    <div class="tagcloud">-->
+<!--                                        <a href="#">Corporate</a>-->
+<!--                                        <a href="#">Agency</a>-->
+<!--                                        <a href="#">Creative</a>-->
+<!--                                        <a href="#">Design</a>-->
+<!--                                        <a href="#">Minimal</a>-->
+<!--                                        <a href="#">Company</a>-->
+<!--                                        <a href="#">Development</a>-->
+<!--                                        <a href="#">App Landing</a>-->
+<!--                                        <a href="#">Startup</a>-->
+<!--                                        <a href="#">App</a>-->
+<!--                                        <a href="#">Business</a>-->
+<!--                                        <a href="#">Software</a>-->
+<!--                                        <a href="#">Landing</a>-->
+<!--                                        <a href="#">Art</a>-->
+<!--                                    </div>-->
+<!--                                </div>-->
 
                                 <!-- Start Contact Form Area  -->
 <!--                                <div class="rn-comment-form pt&#45;&#45;60">-->

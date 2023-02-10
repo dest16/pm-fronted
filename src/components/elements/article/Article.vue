@@ -3,7 +3,7 @@
         <div class="timeline-line"/>
 
         <div class="single-timeline mt--50"
-             v-for="(timeline, index) in timelineData"
+             v-for="(post, index) in posts"
              :key="index">
 <!--            <div class="timeline-dot">-->
 <!--                <div class="time-line-circle"/>-->
@@ -20,8 +20,8 @@
 <!--                                    {{ timeline.date }}-->
 <!--                                </span>-->
                                 <h5 class="title" data-aos="fade-up" data-aos-delay="80">
-                                  <router-link :to="`/article-details/1`">
-                                    {{ timeline.title }}
+                                  <router-link :to="`/article-details/${post.id}`">
+                                    {{ post.title }}
                                   </router-link>
                                 </h5>
 <!--                                <p class="description" data-aos="fade-up" data-aos-delay="110">-->
@@ -70,12 +70,12 @@
     <div v-else-if="timelineStyle === 2 || timelineStyle === 3 || timelineStyle === 4" 
          class="timeline-style-two bg-color-blackest">
         <div class="row row--0">
-            <div :class="`col-lg-3 col-md-3 rn-timeline-single ${checkTimelineStyle}`"
-                 v-for="(timeline, index) in timelineData"
+            <div :class="`col-lg-3 col-md-3 rn-timeline-single`"
+                 v-for="(post, index) in posts"
                  :key="index">
                 <div class="rn-timeline">
                     <h6 class="title" data-aos="fade-up" data-aos-delay="60">
-                        {{ timeline.title }}
+                        {{ post.title }}
                     </h6>
                     <div class="progress-line">
                         <div class="line-inner"/>
@@ -86,7 +86,7 @@
                         </div>
                     </div>
                     <p class="description" data-aos="fade-up" data-aos-delay="60">
-                        {{ timeline.description }}
+                        {{ post.description }}
                     </p>
                 </div>
             </div>
@@ -98,17 +98,10 @@
     export default {
         name: 'Article',
         props: {
-            timelineData: {},
+            posts: {},
             timelineStyle: {
                 type: Number,
                 default: 1
-            }
-        },
-        computed: {
-            checkTimelineStyle() {
-                if (this.timelineStyle === 3) return 'no-gradient';
-                else if (this.timelineStyle === 4) return 'dark-line';
-                else return '';
             }
         }
     }
