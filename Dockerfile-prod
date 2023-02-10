@@ -1,10 +1,10 @@
 # 构建容器
 FROM node:16 as build
 WORKDIR /app
-
+RUN npm install vue@latest
 COPY package.json .
 RUN npm install
-COPY . /app
+COPY . .
 RUN npm run build
 
 # 生产容器
