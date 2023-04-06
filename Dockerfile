@@ -20,3 +20,6 @@ RUN npm run build
 
 EXPOSE 8080
 CMD [ "http-server", "dist" ]
+
+#docker build -t dest16/pm-fronted .
+#docker run -itd --name pm-fronted  -p 8080:8080 dest16/pm-fronted

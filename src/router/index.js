@@ -69,7 +69,7 @@ const routes = [
         name: 'Home',
         component: Home,
         meta: {
-            title: '湖北xx拍卖有限责任公司',
+            title: '湖北东晟拍卖有限公司',
         },
     },
     {

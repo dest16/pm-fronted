@@ -1,5 +1,5 @@
 <template>
-  <Layout header-class="header-transparent" :show-newsletter="true" :show-cta="false">
+  <Layout :show-newsletter="true" :show-cta="false">
     <!-- Start Slider Area -->
     <div class="slider-area slider-style-2 height-950 bg_image"
          data-black-overlay="6"

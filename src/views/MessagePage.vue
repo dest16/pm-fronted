@@ -20,7 +20,7 @@
                     <div class="col-lg-12 text-center">
                         <div class="rwt-load-more text-center mt--60">
                             <a class="btn-default" href="#">
-                                View More Post <Icon name="loader"/>
+                                加载更多 <Icon name="loader"/>
                             </a>
                         </div>
                     </div>
