@@ -49,7 +49,7 @@
                                         </div>
                                         <div class="inner">
                                             <h4 class="title">地址</h4>
-                                            <p>5678 Bangla Main Road, cities 580 <br /> GBnagla, example 54786</p>
+                                            <p>湖北省宜昌市西陵区云集路 <br /> 25-1-504号</p>
                                         </div>
                                     </div>
                                 </div>

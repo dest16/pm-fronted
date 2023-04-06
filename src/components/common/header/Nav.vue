@@ -1,7 +1,7 @@
 <template>
     <ul class="mainmenu">
         <li><router-link to="/">首页</router-link></li>
-        <li><router-link to="/about">公司简介</router-link></li>
+<!--        <li><router-link to="/about">公司简介</router-link></li>-->
         <li><router-link to="/message">拍卖公告</router-link></li>
         <li><router-link to="/article-list">法律法规</router-link></li>
         <li><router-link to="/process">业务流程</router-link></li>

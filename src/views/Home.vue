@@ -1,470 +1,180 @@
 <template>
-    <Layout :footer-style="2">
-        <!-- Start Slider Area -->
-        <div class="demo-slider-area slider-area bg-transparent slider-style-1 pb--100 pt--70">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="inner text-center">
-                            <div class="react-image mb--20" data-aos="fade-up">
-                                <img src="../assets/images/demo/badge-vue-js.png" alt="Doob Vue"/>
-                            </div>
-                            <h1 class="title display-two" data-aos="fade-up" data-aos-delay="100">
-                                这是我的主页 <br/>
-                                <span class="theme-gradient">Business</span> &
-                                <span class="theme-gradient">Consulting</span>
-                                <br/>
-                                Vue.js Template.
-                            </h1>
-                            <p class="description" data-aos="fade-up" data-aos-delay="150">
-                                We help our clients succeed by creating brand identities, digital
-                                experiences, and print materials.
-                            </p>
-                            <div class="button-group" data-aos="fade-up" data-aos-delay="200">
-                                <a class="btn-default btn-large round btn-icon" href="#demo">View Demo
-                                    <Icon name="arrow-down"/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <Layout header-class="header-transparent" :show-newsletter="true" :show-cta="false">
+    <!-- Start Slider Area -->
+    <div class="slider-area slider-style-2 height-950 bg_image"
+         data-black-overlay="6"
+         :style="{'background-image': `url(${require(`@/assets/images/bg/yichang-bg1.jpeg`)})`}">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <div class="inner text-center">
+              <span class="subtitle theme-gradient" data-aos="fade-up" data-aos-delay="100">Hubei Dongsheng Paimai Co.,Ltd.</span>
+              <h1 class="title" data-aos="fade-up" data-aos-delay="150">
+                湖北东晟拍卖有限公司
+              </h1>
+              <p class="description" data-aos="fade-up" data-aos-delay="200">
+                湖北东晟拍卖有限公司将坚持“规范、诚信、高效”的服务宗旨，力争成为您身边最专业的资产处置服务管家。
+              </p>
+              <div class="button-group mt--30" data-aos="fade-up" data-aos-delay="250">
+                <router-link class="btn-default btn-large round"
+                             to="/message">
+                  查看公告
+                </router-link>
+                <router-link class="btn-default btn-border btn-large round" to="/contact">
+                  联系我们
+                </router-link>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- End Slider Area -->
+      </div>
+    </div>
+    <!-- End Slider Area -->
 
-        <Separator/>
-
-        <!-- Start Our Demo -->
-        <div class="rn-demo-area rn-section-gap" id="demo">
-            <div class="wrapper plr--150 plr_lg--30 plr_md--30 plr_sm--30">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <SectionTitle
-                            text-align="center"
-                            subtitle="All Demo Here"
-                            title="Doob All Demo."
-                            description="We create a business and consulting Vue.js template with 50+ elements features. <br /> 19+ demo pages, faster loading and well documentated code."
-                            data-aos="fade-up"
-                        />
-                    </div>
-                </div>
-                <div class="row row--15">
-                    <div class="col-lg-4 col-md-6 col-12 mt--40"
-                         v-for="(page, index) in demoPages"
-                         :key="index"
-                         data-aos="fade-up"
-                         :data-aos-delay="100 + index">
-                        <div class="single-demo">
-                            <router-link :to="page.url">
-                                <div class="thumbnail">
-                                    <img class="image-dark" :src="page.image" alt="Corporate images"/>
-                                    <img class="image-light" :src="page.imageLight" alt="Corporate images"/>
-                                    <span v-if="page.badge" class="label-badge">{{ page.badge }}</span>
-                                </div>
-                            </router-link>
-                            <h4 class="title">
-                                <router-link :to="page.url">{{ page.title }}</router-link>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
+    <!-- Start Service Area -->
+    <div class="service-area rn-section-gapTop">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="content" data-aos="fade-up">
+              <h3 class="title">湖北东晟拍卖有限公司，成立于2023年，位于湖北省宜昌市，是一家以从事金融业为主的企业</h3>
             </div>
+          </div>
+          <div class="col-lg-6">
+            <p class="mb--10" data-aos="fade-up">
+              湖北东晟拍卖有限公司经湖北省商务厅、湖北省市场监督管理局批准，是一家全国性拍卖机构，有着丰富的资产处置经验，拥有良好的网络化拍卖设施，可与各地交易平台联动开展优质的招、拍、挂服务。
+              公司专业从事：国有资产处置、司法强制拍卖、破产财产变现、金融机构不良资产处置等业务。拍卖标的涉及：企业国有产权、实物资产、行政事业资产、租赁权、文化艺术品、股权、无形资产等。
+              公司位于宜昌核心区域——西陵区，办公场所内设施齐全。除现场拍卖外，还可同步支持网上拍卖、在线拍卖，网络拍卖技术包括视频、音频同步，报价数据同步等，并实现了拍卖会的网络直播，包括远程报价、网上标的物展示、客户身份确认、网络代理竞投等。同时，公司还可根据标的不同特性，结合客户需求，量身定制资产处置整体策划方案、市场运作化方案、招商宣传方案，确保实现委托人利益的最大化。
+              新世纪、新企业、新征程。湖北东晟拍卖有限公司将坚持“规范、诚信、高效”的服务宗旨，力争成为您身边最专业的资产处置服务管家。
+            </p>
+          </div>
         </div>
-        <!-- End Our Demo -->
+      </div>
+    </div>
+    <!-- End Service Area -->
 
-        <Separator/>
-
-        <!-- Start Inner Pages -->
-        <div class="rn-inner-pages rn-section-gap">
-            <div class="wrapper plr--150 plr_lg--30 plr_md--30 plr_sm--30">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <SectionTitle
-                            text-align="center"
-                            subtitle="All Others Pages"
-                            title="All Others Pages."
-                            description="Have a nice inner pages include in doob template."
-                            data-aos="fade-up"
-                        />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-12 mt--40"
-                         v-for="(page, index) in innerPages"
-                         :key="index"
-                         data-aos="fade-up"
-                         :data-aos-delay="100 + index">
-                        <div class="single-demo">
-                            <router-link :to="page.url">
-                                <div class="thumbnail">
-                                    <img class="image-dark" :src="page.image" alt="Corporate images"/>
-                                    <img class="image-light" :src="page.imageLight" alt="Corporate images"/>
-                                </div>
-                            </router-link>
-                            <h4 class="title">
-                                <router-link :to="page.url">{{ page.title }}</router-link>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Inner Pages -->
-    </Layout>
+  </Layout>
 </template>
 
 <script>
-    import Layout from '../components/common/Layout'
-    import Icon from '../components/icon/Icon'
-    import Separator from '../components/elements/separator/Separator'
-    import SectionTitle from '../components/elements/sectionTitle/SectionTitle'
+import Layout from '../components/common/Layout'
+import Separator from '../components/elements/separator/Separator'
+import SectionTitle from '../components/elements/sectionTitle/SectionTitle'
+import AboutFour from '../components/elements/about/AboutFour'
+import ServiceOne from '../components/elements/service/ServiceOne'
+import Timeline from '../components/elements/timeline/Timeline'
+import Counter from '../components/elements/counterUp/Counter'
+import Brand from '../components/elements/brand/Brand'
+import Team from '../components/elements/team/Team'
+import Icon from "@/components/icon/Icon.vue";
 
-    export default {
-        name: 'Demo',
-        components: {Icon, Layout, Separator, SectionTitle},
-        data() {
-            return {
-                demoPages: [
-                    {
-                        url: '/business-consulting',
-                        image: require('@/assets/images/demo/business-consulting.png'),
-                        imageLight: require('@/assets/images/demo/business-consulting-light.png'),
-                        title: 'Business Consulting',
-                        badge: '',
-                    },
-                    {
-                        url: '/business-consulting-2',
-                        image: require('@/assets/images/demo/business-consulting-2.png'),
-                        imageLight: require('@/assets/images/demo/business-consulting-2-light.png'),
-                        title: 'Business Consulting 2',
-                        badge: '',
-                    },
-                    {
-                        url: '/corporate',
-                        image: require('@/assets/images/demo/corporate.png'),
-                        imageLight: require('@/assets/images/demo/corporate-light.png'),
-                        title: 'Corporate',
-                        badge: '',
-                    },
-                    {
-                        url: '/startup',
-                        image: require('@/assets/images/demo/startup.png'),
-                        imageLight: require('@/assets/images/demo/startup-light.png'),
-                        title: 'Startup',
-                        badge: 'Trendy',
-                    },
-                    {
-                        url: '/web-agency',
-                        image: require('@/assets/images/demo/web-agency.png'),
-                        imageLight: require('@/assets/images/demo/web-agency-light.png'),
-                        title: 'Web Agency',
-                        badge: 'Trendy',
-                    },
-                    {
-                        url: '/international-consulting',
-                        image: require('@/assets/images/demo/international-consulting.png'),
-                        imageLight: require('@/assets/images/demo/international-consulting-light.png'),
-                        title: 'International Consulting',
-                        badge: 'Trendy',
-                    },
-                    {
-                        url: '/consulting',
-                        image: require('@/assets/images/demo/consulting.png'),
-                        imageLight: require('@/assets/images/demo/consulting-light.png'),
-                        title: 'Consulting',
-                        badge: 'Hot',
-                    },
-                    {
-                        url: '/finance',
-                        image: require('@/assets/images/demo/finance.png'),
-                        imageLight: require('@/assets/images/demo/finance-light.png'),
-                        title: 'Finance',
-                        badge: '',
-                    },
-                    {
-                        url: '/digital-agency',
-                        image: require('@/assets/images/demo/digital-agency.png'),
-                        imageLight: require('@/assets/images/demo/digital-agency-light.png'),
-                        title: 'Digital Agency',
-                        badge: '',
-                    },
-                    {
-                        url: '/seo-agency',
-                        image: require('@/assets/images/demo/seo-agency.png'),
-                        imageLight: require('@/assets/images/demo/seo-agency-light.png'),
-                        title: 'SEO Agency',
-                        badge: '',
-                    },
-                    {
-                        url: '/company',
-                        image: require('@/assets/images/demo/company.png'),
-                        imageLight: require('@/assets/images/demo/company-light.png'),
-                        title: 'Company',
-                        badge: '',
-                    },
-                    {
-                        url: '/personal-portfolio',
-                        image: require('@/assets/images/demo/portfolio.png'),
-                        imageLight: require('@/assets/images/demo/portfolio-light.png'),
-                        title: 'Personal Portfolio',
-                        badge: '',
-                    },
-                    {
-                        url: '/freelancer',
-                        image: require('@/assets/images/demo/freelancer.png'),
-                        imageLight: require('@/assets/images/demo/freelancer-light.png'),
-                        title: 'Freelancer',
-                        badge: 'Hot',
-                    },
-                    {
-                        url: '/marketing-agency',
-                        image: require('@/assets/images/demo/marketing.png'),
-                        imageLight: require('@/assets/images/demo/marketing-light.png'),
-                        title: 'Marketing Agency',
-                        badge: '',
-                    },
-                    {
-                        url: '/travel-agency',
-                        image: require('@/assets/images/demo/travel-agency.png'),
-                        imageLight: require('@/assets/images/demo/travel-agency-light.png'),
-                        title: 'Travel Agency',
-                        badge: '',
-                    },
-                    {
-                        url: '/business',
-                        image: require('@/assets/images/demo/business.png'),
-                        imageLight: require('@/assets/images/demo/business-light.png'),
-                        title: 'Business',
-                        badge: '',
-                    },
-                    {
-                        url: '/event-conference',
-                        image: require('@/assets/images/demo/event-conference.png'),
-                        imageLight: require('@/assets/images/demo/event-conference-light.png'),
-                        title: 'Event Conference',
-                        badge: '',
-                    },
-                    {
-                        url: '/creative-portfolio',
-                        image: require('@/assets/images/demo/creative-portfolio.png'),
-                        imageLight: require('@/assets/images/demo/creative-portfolio-light.png'),
-                        title: 'Creative Portfolio',
-                        badge: '',
-                    },
-                    {
-                        url: '/about',
-                        image: require('@/assets/images/demo/about-us.png'),
-                        imageLight: require('@/assets/images/demo/about-us-light.png'),
-                        title: 'Corporate About',
-                        badge: '',
-                    },
-                    {
-                        url: '#demo',
-                        image: require('@/assets/images/demo/coming-soon.png'),
-                        imageLight: require('@/assets/images/demo/coming-soon.png'),
-                        title: 'Finance Consulting',
-                        badge: '',
-                    },
-                    {
-                        url: '#demo',
-                        image: require('@/assets/images/demo/coming-soon.png'),
-                        imageLight: require('@/assets/images/demo/coming-soon.png'),
-                        title: 'Finance Consulting',
-                        badge: '',
-                    },
-                ],
-                innerPages: [
-                    {
-                        id: '1',
-                        url: '/blog-grid',
-                        image: require('@/assets/images/demo/blog-grid.png'),
-                        imageLight: require('@/assets/images/demo/blog-grid-light.png'),
-                        title: 'Blog Grid'
-                    },
-                    {
-                        id: '2',
-                        url: '/blog-grid-sidebar',
-                        image: require('@/assets/images/demo/blog-grid-sidebar.png'),
-                        imageLight: require('@/assets/images/demo/blog-grid-sidebar-light.png'),
-                        title: 'Blog Grid Sidebar'
-                    },
-                    {
-                        id: '3',
-                        url: '/blog-list-view',
-                        image: require('@/assets/images/demo/blog-list-view.png'),
-                        imageLight: require('@/assets/images/demo/blog-list-view-light.png'),
-                        title: 'Blog List View'
-                    },
-                    {
-                        id: '4',
-                        url: '/blog-list-sidebar',
-                        image: require('@/assets/images/demo/blog-list-sidebar.png'),
-                        imageLight: require('@/assets/images/demo/blog-list-sidebar-light.png'),
-                        title: 'Blog List Sidebar'
-                    },
-                    {
-                        id: '5',
-                        url: '/blog-details/3',
-                        image: require('@/assets/images/demo/blog-details.png'),
-                        imageLight: require('@/assets/images/demo/blog-details-light.png'),
-                        title: 'Blog Details'
-                    },
-                    {
-                        id: '6',
-                        url: '/portfolio',
-                        image: require('@/assets/images/demo/portfolio.png'),
-                        imageLight: require('@/assets/images/demo/portfolio-light.png'),
-                        title: 'Portfolio'
-                    },
-                    {
-                        id: '7',
-                        url: '/portfolio-three-column',
-                        image: require('@/assets/images/demo/portfolio-three-column.png'),
-                        imageLight: require('@/assets/images/demo/portfolio-three-column-light.png'),
-                        title: 'Portfolio Three Column'
-                    },
-                    {
-                        id: '8',
-                        url: '/portfolio-full-width',
-                        image: require('@/assets/images/demo/portfolio-full-width.png'),
-                        imageLight: require('@/assets/images/demo/portfolio-full-width-light.png'),
-                        title: 'Portfolio Full Width'
-                    },
-                    {
-                        id: '9',
-                        url: '/portfolio-grid-layout',
-                        image: require('@/assets/images/demo/portfolio-grid-layout.png'),
-                        imageLight: require('@/assets/images/demo/portfolio-grid-layout-light.png'),
-                        title: 'Portfolio Grid Layout'
-                    },
-                    {
-                        id: '10',
-                        url: '/portfolio-box-layout',
-                        image: require('@/assets/images/demo/portfolio-box-layout.png'),
-                        imageLight: require('@/assets/images/demo/portfolio-box-layout-light.png'),
-                        title: 'Portfolio Box Layout'
-                    },
-                    {
-                        id: '11',
-                        url: '/portfolio-details/5',
-                        image: require('@/assets/images/demo/portfolio-details.png'),
-                        imageLight: require('@/assets/images/demo/portfolio-details-light.png'),
-                        title: 'Portfolio Details'
-                    },
-                    {
-                        id: '12',
-                        url: '/about-us',
-                        image: require('@/assets/images/demo/about-us.png'),
-                        imageLight: require('@/assets/images/demo/about-us-light.png'),
-                        title: 'About Us'
-                    },
-                    {
-                        id: '13',
-                        url: '/service',
-                        image: require('@/assets/images/demo/service.png'),
-                        imageLight: require('@/assets/images/demo/service-light.png'),
-                        title: 'Service'
-                    },
-                    {
-                        id: '14',
-                        url: '/team',
-                        image: require('@/assets/images/demo/team.png'),
-                        imageLight: require('@/assets/images/demo/team-light.png'),
-                        title: 'Team'
-                    },
-                    {
-                        id: '15',
-                        url: '/pricing',
-                        image: require('@/assets/images/demo/pricing.png'),
-                        imageLight: require('@/assets/images/demo/pricing-light.png'),
-                        title: 'Pricing'
-                    },
-                    {
-                        id: '16',
-                        url: '/testimonial',
-                        image: require('@/assets/images/demo/testimonial.png'),
-                        imageLight: require('@/assets/images/demo/testimonial-light.png'),
-                        title: 'Testimonial'
-                    },
-                    {
-                        id: '17',
-                        url: '/progressbar',
-                        image: require('@/assets/images/demo/progressbar.png'),
-                        imageLight: require('@/assets/images/demo/progressbar-light.png'),
-                        title: 'Progressbar'
-                    },
-                    {
-                        id: '18',
-                        url: '/tab',
-                        image: require('@/assets/images/demo/tab.png'),
-                        imageLight: require('@/assets/images/demo/tab-light.png'),
-                        title: 'Tab'
-                    },
-                    {
-                        id: '18',
-                        url: '/timeline',
-                        image: require('@/assets/images/demo/timeline.png'),
-                        imageLight: require('@/assets/images/demo/timeline-light.png'),
-                        title: 'Timeline'
-                    },
-                    {
-                        id: '19',
-                        url: '/button',
-                        image: require('@/assets/images/demo/button.png'),
-                        imageLight: require('@/assets/images/demo/button-light.png'),
-                        title: 'Button'
-                    },
-                    {
-                        id: '20',
-                        url: '/counter',
-                        image: require('@/assets/images/demo/counter.png'),
-                        imageLight: require('@/assets/images/demo/counter-light.png'),
-                        title: 'Counter'
-                    },
-                    {
-                        id: '21',
-                        url: '/social-share',
-                        image: require('@/assets/images/demo/social-share.png'),
-                        imageLight: require('@/assets/images/demo/social-share-light.png'),
-                        title: 'Social Share'
-                    },
-                    {
-                        id: '22',
-                        url: '/advance-tab',
-                        image: require('@/assets/images/demo/advance-tab.png'),
-                        imageLight: require('@/assets/images/demo/advance-tab-light.png'),
-                        title: 'Advance Tab'
-                    },
-                    {
-                        id: '23',
-                        url: '/call-to-action',
-                        image: require('@/assets/images/demo/call-to-action.png'),
-                        imageLight: require('@/assets/images/demo/call-to-action-light.png'),
-                        title: 'Call To Action'
-                    },
-                    {
-                        id: '24',
-                        url: '/error',
-                        image: require('@/assets/images/demo/error.png'),
-                        imageLight: require('@/assets/images/demo/error-light.png'),
-                        title: '404 Page'
-                    },
-                    {
-                        id: '25',
-                        url: '/video-popup',
-                        image: require('@/assets/images/demo/video-popup.png'),
-                        imageLight: require('@/assets/images/demo/video-popup-light.png'),
-                        title: 'Video Popup'
-                    },
-                    {
-                        id: '26',
-                        url: '/contact',
-                        image: require('@/assets/images/demo/contact.png'),
-                        imageLight: require('@/assets/images/demo/contact-light.png'),
-                        title: 'Contact'
-                    }
-                ]
-            }
+
+export default {
+  name: 'Home',
+  components: {Icon,Team, Brand, Counter, Timeline, ServiceOne, AboutFour, SectionTitle, Separator, Layout},
+  data() {
+    return {
+      brandList: [
+        {
+          image: require(`@/assets/images/brand/brand-01.png`)
+        },
+        {
+          image: require(`@/assets/images/brand/brand-02.png`)
+        },
+        {
+          image: require(`@/assets/images/brand/brand-03.png`)
+        },
+        {
+          image: require(`@/assets/images/brand/brand-04.png`)
+        },
+        {
+          image: require(`@/assets/images/brand/brand-05.png`)
+        },
+        {
+          image: require(`@/assets/images/brand/brand-06.png`)
+        },
+        {
+          image: require(`@/assets/images/brand/brand-07.png`)
+        },
+        {
+          image: require(`@/assets/images/brand/brand-08.png`)
+        },
+        {
+          image: require(`@/assets/images/brand/brand-01.png`)
+        },
+
+      ],
+      timelineData: [
+        {
+          id: '1',
+          title: 'Knowledge',
+          description: 'Present all available features in Essentials.',
+        },
+        {
+          id: '2',
+          title: 'Working',
+          description: 'All Feature available features in Essentials.',
+        },
+        {
+          id: '3',
+          title: 'Solution',
+          description: 'Popular Feature available features in Essentials.',
+        },
+        {
+          id: '4',
+          title: 'Process',
+          description: 'Latest Feature available features in Essentials.',
+        },
+      ],
+      counterData: [
+        {
+          number: 199,
+          title: 'Happy Clients',
+        },
+        {
+          number: 575,
+          title: 'Employees',
+        },
+        {
+          number: 69,
+          title: 'Useful Programs',
+        },
+        {
+          number: 500,
+          title: 'Useful Programs',
         }
+      ],
+      teamData: [
+        {
+          image: 'team-dark-01',
+          name: 'Sr Janen Sara',
+          designation: 'Sr Product Designer',
+          location: 'CO Miego, AD, USA',
+          description: 'Yes, I am a product designer. I have a passion for product design.'
+        },
+        {
+          image: 'team-dark-02',
+          name: 'Corporate Jane',
+          designation: 'Manager',
+          location: 'Bangladesh',
+          description: 'Yes, I am a product designer. I have a passion for product design.'
+        },
+        {
+          image: 'team-dark-03',
+          name: 'Jara Saraif',
+          designation: 'Software Developer',
+          location: 'Poland',
+          description: 'Yes, I am a product designer. I have a passion for product design.'
+        },
+        {
+          image: 'team-dark-04',
+          name: 'Afanan Sifa',
+          designation: 'Accounts Manager',
+          location: 'Poland',
+          description: 'Yes, I am a product designer. I have a passion for product design.'
+        },
+      ]
     }
+  }
+}
 </script>
