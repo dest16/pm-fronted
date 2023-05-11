@@ -15,6 +15,9 @@
                             <li>
                                 <router-link to="/contact">联系我们</router-link>
                             </li>
+                            <li>
+                              <a href="https://beian.miit.gov.cn/">鄂ICP备2023006209号-1</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -30,7 +33,14 @@
 </template>
 
 <script>
+    import * as https from "https";
+
     export default {
-        name: 'Copyright'
+        name: 'Copyright',
+      methods: {
+        https() {
+          return https
+        }
+      }
     }
 </script>

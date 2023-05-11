@@ -18,7 +18,7 @@
                     <li>{{ blog.category }}</li>
                 </ul>
                 <h4 class="title">
-                    <router-link :to="`/blog-details/${blog.id}`">
+                    <router-link :to="`/message-details/${blog.id}`">
                         {{ blog.title }}
                     </router-link>
                 </h4>

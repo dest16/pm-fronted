@@ -357,7 +357,7 @@ const routes = [
         name: 'Contact',
         component: ContactPage,
         meta: {
-            title: 'Contact || Doob Business and Consulting Bootstrap5 Template',
+            title: '联系我们',
         },
     },
     {

@@ -58,14 +58,14 @@
                     </div>
                 </div>
 
-                <div class="row mt--40 row--15">
-                    <div class="col-lg-7">
-                        <ContactForm/>
-                    </div>
-                    <div class="col-lg-5 mt_md--30 mt_sm--30">
-                        <GoogleMap/>
-                    </div>
-                </div>
+<!--                <div class="row mt&#45;&#45;40 row&#45;&#45;15">-->
+<!--                    <div class="col-lg-7">-->
+<!--                        <ContactForm/>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-5 mt_md&#45;&#45;30 mt_sm&#45;&#45;30">-->
+<!--                        <GoogleMap/>-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
         </div>
         <!-- End Contact Area  -->
