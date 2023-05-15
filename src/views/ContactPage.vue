@@ -23,8 +23,7 @@
                                         </div>
                                         <div class="inner">
                                             <h4 class="title">联系电话</h4>
-                                            <p><a href="tel:+444 555 666 777">+444 555 666 777</a></p>
-                                            <p><a href="tel:+222 222 222 333">+222 222 222 333</a></p>
+                                            <p><a href="tel:18372337683">18372337683</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -37,7 +36,6 @@
                                         <div class="inner">
                                             <h4 class="title">邮编邮箱</h4>
                                             <p><a href="mailto:admin@gmail.com">admin@gmail.com</a></p>
-                                            <p><a href="mailto:example@gmail.com">example@gmail.com</a></p>
                                         </div>
                                     </div>
                                 </div>
