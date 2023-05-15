@@ -1,1 +1,1 @@
-npm --registry https://registry.npm.taobao.org install & npm  run build
+npm --registry https://registry.npm.taobao.org install && npm  run build
