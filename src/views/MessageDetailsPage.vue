@@ -98,24 +98,24 @@
                 <div class="content">
                   <p v-html="portfolio.body"/>
                 </div>
-                <div class="gallery mt--30">
-                  <div class="thumbnail">
-                    <img class="radius w-100" :src="portfolio.gallery.imageOne"
-                         alt="Corporate Image"/>
-                  </div>
-                </div>
-                <div class="gallery mt--30">
-                  <div class="thumbnail">
-                    <img class="radius w-100" :src="portfolio.gallery.imageTwo"
-                         alt="Corporate Image"/>
-                  </div>
-                </div>
-                <div class="gallery mt--30">
-                  <div class="thumbnail">
-                    <img class="radius w-100" :src="portfolio.gallery.imageThree"
-                         alt="Corporate Image"/>
-                  </div>
-                </div>
+<!--                <div class="gallery mt&#45;&#45;30">-->
+<!--                  <div class="thumbnail">-->
+<!--                    <img class="radius w-100" :src="portfolio.gallery.imageOne"-->
+<!--                         alt="Corporate Image"/>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--                <div class="gallery mt&#45;&#45;30">-->
+<!--                  <div class="thumbnail">-->
+<!--                    <img class="radius w-100" :src="portfolio.gallery.imageTwo"-->
+<!--                         alt="Corporate Image"/>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--                <div class="gallery mt&#45;&#45;30">-->
+<!--                  <div class="thumbnail">-->
+<!--                    <img class="radius w-100" :src="portfolio.gallery.imageThree"-->
+<!--                         alt="Corporate Image"/>-->
+<!--                  </div>-->
+<!--                </div>-->
               </div>
             </div>
           </div>

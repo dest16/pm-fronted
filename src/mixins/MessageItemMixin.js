@@ -4,21 +4,21 @@ export default {
            portfolioItems:  [
                {
                    id: 1,
-                   portfolioImage: require(`@/assets/images/message/message-01.png`),
-                   image: require(`@/assets/images/message/message-01.png`),
-                   title: '宜昌市夷陵区xxx商业房产变卖公告.宜昌市夷陵区',
+                   portfolioImage: require(`@/assets/images/message/message-01.jpg`),
+                   image: require(`@/assets/images/message/message-01.jpg`),
+                   title: '宜昌市夷陵路98号处办公用房4-6层 19个月租赁权拍卖公告',
                    subtitle: '拍卖详情',
-                   date: '2022-05-03',
-                   client: '20.7元/㎡/月',
-                   category: 'development',
+                   date: '2023-05-24',
+                   client: '见公告',
+                   category: 'admin',
                    awards: ['2020 Design beautiful apps Finale Awards'],
                    excerpt: 'Design beautiful apps.',
-                   body: `<p align="center" style="text-align:center"><strong><span style="font-size:22px;">鼓楼核心地段商铺拍租公告</span></strong></p><p style="text-align:justify">&nbsp;</p><p style="text-align:justify">受委托，兹定于<span>2023</span>年<span>1</span>月<span>14</span>日上午<span>10</span>时至<span>2023</span>年<span>1</span>月<span>1</span>5日上午<span>10</span>时止（延时的除外）在阿里拍卖（<span>https://zc-paimai.taobao.com/</span>）举行房地产租赁权拍卖会。<strong>拍卖标的：福建省福州市鼓楼区核心地段华屏路<span>25</span>号省直屏东小区商铺十年期租赁权（出租建筑面积约<span>7895</span>平方米，原为大型商超）。</strong></p><p style="text-align:justify">符合资格条件的竞租人（竞租人资格详询拍卖人），请与本公司联系看样，办理相关报名登记手续。</p><p style="text-align:justify">★展示时间：即日起至<span>2023年</span><span>1</span>月<span>10</span>日 &nbsp;&nbsp;</p><p style="text-align:justify">★展示地点：标的物现场</p><p style="text-align:justify">★联系电话：陈先生：<span>18301106341</span>；焦先生：<span>18060514808</span></p><p style="text-align:justify">★联系地址：福建省福州市五四路<span>210</span>号国际大厦<span>20</span>层</p><p style="text-align:justify">★网 &nbsp;&nbsp;&nbsp;址：<a href="http://www.fjhxpmh.com/">http://www.fjhxpmh.com</a></p><p style="text-align:justify">★公司微信号：<span>hxpmh1995</span>&nbsp;</p><p style="text-align:justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p align="right" style="text-align:right">福建省海峡拍卖行有限公司</p><p style="text-align:justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2022年<span>12月<span>21</span>日</span></p><p class="MsoNormal"><span>&nbsp;</span></p>`,
+                   body: `<p><br></p><p style="text-indent: 28pt;"><span style="color: rgb(61, 75, 100); background-color: white; font-family: 仿宋;">受委托，我公司定于2023年5月24日15时在宜昌市公共资源交易中心701室对位于宜昌市夷陵路98号的1处办公用房4-6层19个月租赁权进行公开拍卖，拟出租面积约1386平方米。年租金参考价319334元，19个月总租金参考价505612.8元，竞买保证金为15000元。</span></p><p><span style="color: rgb(61, 75, 100); background-color: white; font-family: 仿宋;"> 租赁期限:从合同签订之日起至2024年12月31日止。在同等条件下，原承租人享有优先租赁权。</span></p><p><span style="color: rgb(61, 75, 100); background-color: white; font-family: 仿宋;"> 上述标的自公告之日起在标的物所在地公开展示，本次拍卖按标的物现状进行，有意租赁者请持有效身份证件到我公司咨询，按拍卖文件要求交纳竞买保证金并办理竞拍手续，报名及保证金交纳截止时间为2023年5月23日17时，以款到公司指定账户为有效支付(户名:湖北东晟拍卖有限公司；开户行:湖北银行股份有限公司宜昌南湖支行；账号: 1107 0230 0000 00352)。</span></p><p><span style="color: rgb(61, 75, 100); background-color: white; font-family: 仿宋;"> 联系地址:宜昌市西陵区旅游广场1号楼5楼518室</span></p><p><span style="color: rgb(61, 75, 100); background-color: white; font-family: 仿宋;"> 咨询电话: 18372337683 &nbsp; 16671725559</span></p><p style="text-indent: 196pt;"><span style="color: rgb(61, 75, 100); background-color: white; font-family: 仿宋;"> </span></p><p style="text-indent: 196pt;"><span style="color: rgb(61, 75, 100); background-color: white; font-family: 仿宋;"> </span></p><p style="text-indent: 196pt;"><span style="color: rgb(61, 75, 100); background-color: white; font-family: 仿宋;"> </span></p><p style="text-indent: 252pt;"><span style="color: rgb(61, 75, 100); background-color: white; font-family: 仿宋;">湖北东晟拍卖有限公司</span></p><p style="text-indent: 266pt;"><span style="color: rgb(61, 75, 100); background-color: white; font-family: 仿宋;">2023年5月16日</span></p><p><br></p>`,
                    btn: {
                        buttonText: '联系我们',
                        link: '/'
                    },
-                   largeImage: require(`@/assets/images/message/message-01.png`),
+                   largeImage: require(`@/assets/images/message/message-01.jpg`),
                    subContent: {
                        title: 'Digital Marketing.',
                        subtext: 'We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities.'
