@@ -109,7 +109,7 @@ const routes = [
         name: 'Process',
         component: ProcessPage,
         meta: {
-            title: '法律法规详情',
+            title: '业务流程',
         },
     },
     {
