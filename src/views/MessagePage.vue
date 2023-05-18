@@ -17,13 +17,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-12 text-center">
-                        <div class="rwt-load-more text-center mt--60">
-                            <a class="btn-default" href="#">
-                                加载更多 <Icon name="loader"/>
-                            </a>
-                        </div>
-                    </div>
+<!--                    <div class="col-lg-12 text-center">-->
+<!--                        <div class="rwt-load-more text-center mt&#45;&#45;60">-->
+<!--                            <a class="btn-default" href="#">-->
+<!--                                加载更多 <Icon name="loader"/>-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                    </div>-->
                 </div>
             </div>
         </div>
