@@ -27,16 +27,16 @@
                           <label>参考价:</label>
                           <span>{{ portfolio.client }}</span>
                         </div>
-<!--                        <div class="single-list">-->
-<!--                          <label>参拍链接:</label>-->
-<!--                          <span>{{ portfolio.category }}</span>-->
-<!--                        </div>-->
+                        <div class="single-list">
+                          <label>联系方式:</label>
+                          <span>{{ portfolio.category }}</span>
+                        </div>
                       </div>
-                      <div class="view-btn mt--50">
-                        <a class="btn-default btn-large round" :href="portfolio.btn.link">
-                          {{ portfolio.btn.buttonText }}
-                        </a>
-                      </div>
+<!--                      <div class="view-btn mt&#45;&#45;50">-->
+<!--                        <a class="btn-default btn-large round" :href="portfolio.btn.link">-->
+<!--                          {{ portfolio.btn.buttonText }}-->
+<!--                        </a>-->
+<!--                      </div>-->
                     </div>
                   </div>
                   <div class="col-lg-6 mt_md--30 mt_sm--30">
