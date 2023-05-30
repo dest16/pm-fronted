@@ -37,10 +37,45 @@ export default {
                        // imageThree: require(`@/assets/images/portfolio/portfolio-03.jpg`)
                    }
                },
+               {
+                   id: 2,
+                   portfolioImage: require(`@/assets/images/message/message-001.png`),
+                   image: require(`@/assets/images/message/message-001.png`),
+                   title: '宜昌市夷陵路98号办公用房4-6层19个月租赁权（第二次）拍卖公告',
+                   subtitle: '拍卖详情',
+                   date: '2023-06-07',
+                   client: '见公告',
+                   category: '见公告',
+                   awards: ['2020 Design beautiful apps Finale Awards'],
+                   excerpt: 'Design beautiful apps.',
+                   body: `<p style="text-align:center;text-indent:37px"><strong><span style="font-size:26px;color:black">宜昌市夷陵路98号办公用房4-6层19个月租赁权</span></strong></p><p style="text-align:center;text-indent:37px"><strong><span style="font-size:26px;color:black">（第二次）拍卖公告</span></strong></p><p style="text-align:justify;text-justify:inter-ideograph;text-indent:37px"><span style="font-size:24px;color:black">受委托，我公司定于2023年6月7日15时在宜昌市公共资源交易中心703室对位于宜昌市夷陵路98号的1处办公用房4-6层19个月租赁权进行公开拍卖，拟出租面积约1386㎡。年租金参考价319334元，竞买保证金为15000元。</span></p><p style="text-align:justify;text-justify:inter-ideograph;text-indent:37px"><span style="font-size:24px;color:black">租赁期限：从合同签订之日起至2024年12月31日止。在同等条件下，原承租人享有优先租赁权。</span></p><p style="text-align:justify;text-justify:inter-ideograph;text-indent:37px"><span style="font-size:24px;color:black">上述标的自公告之日起在标的物所在地公开展示，本次拍卖按标的物现状进行，有意租赁者请持有效身份证件到我公司咨询，按拍卖文件要求交纳竞买保证金并办理竞拍手续，报名及保证金交纳截止时间为2023年6月6日17时，以款到公司指定账户为有效支付（户名：湖北东晟拍卖有限公司，开户行：湖北银行股份有限公司宜昌南湖支行，账号：1107 0230 0000 00352）。</span></p><p style="text-align:justify;text-justify:inter-ideograph;text-indent:37px"><span style="font-size:24px;color:black">联系地址：宜昌市西陵区旅游广场1号楼5楼518室</span></p><p style="text-align:justify;text-justify:inter-ideograph;text-indent:37px"><span style="font-size:24px;color:black">咨询电话：18372337683&nbsp;&nbsp; 16671725559</span></p><p style="text-align:right;text-indent:37px"><span style="font-size:24px;color:black">湖北东晟拍卖有限公司</span></p><p style="text-align: right; text-indent: 37px;"><span style="font-size:24px;color:black">2023年5月30日</span></p>`,
+                   btn: {
+                       buttonText: '联系我们',
+                       link: '/'
+                   },
+                   largeImage: require(`@/assets/images/message/message-001.png`),
+                   subContent: {
+                       title: 'Digital Marketing.',
+                       subtext: 'We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities.'
+                   },
+                   subContent2: {
+                       title: 'App Development.',
+                       subtext: 'We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities.'
+                   },
+                   subContent3: {
+                       title: 'Solution.',
+                       subtext: 'We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities.'
+                   },
+                   gallery: {
+                       imageOne: require(`@/assets/images/message/message-001.png`),
+                       imageTwo: require(`@/assets/images/message/message-002.jpg`),
+                       // imageThree: require(`@/assets/images/portfolio/portfolio-03.jpg`)
+                   }
+               },
                // {
                //     id: 2,
-               //     portfolioImage: require(`@/assets/images/portfolio/portfolio-02.jpg`),
-               //     image: require(`@/assets/images/portfolio/portfolio-02.jpg`),
+               //     portfolioImage: require(`@/assets/images/message/message-001.png`),
+               //     image: require(`@/assets/images/message/message-001.png`),
                //     title: 'Business Development',
                //     subtitle: 'Awesome portfolio',
                //     date: '01 March 2022',
